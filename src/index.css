@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  font-family: 'Tahoma';
+  color: white;
+  background-color: black;
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f1356d;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  border: 2px solid whitesmoke;
+  border-radius: 4px;
+  transition: ease-in-out .5s;
+
+}
+.navbar a:hover {
+  color: #f1356d;
+  border: 2px solid #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  
+}
+.blog-preview{
+    padding: 10px 16px;
+    margin: 20px;
+    border-bottom: 1px solid #e1dada43;
+    /* border-right: 1px solid #e1dada43; */
+    transition: ease-in-out 0.5s;
+}
+
+.blog-preview:hover {
+      box-shadow: 1px 3px 5px #f1356d;
+      border-bottom: 1px solid #f1356d;
+      /* border-right: 1px solid #f1356d; */
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-preview button{
+  color: white;
+  background-color: #f1356d;
+  border: 1px solid #f1356d;
+  border-radius: 8px;
+  padding: 0.5rem;
+
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 5px;
+}
+.blog-details div {
+  margin: 10px 0;
+}
+.blog-details button {
+  background-color: #f1356d;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select {
+  width: 400px;
+  padding: 8px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background-color: #f1356d;
+  color: black;
+  border: 1px solid #f1356d;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: ease-in-out .5s;
+  font-weight: bold;
+}
+.create button:hover{
+  background-color: transparent;
+  color: #f1356d;
+  border: 1px solid #f1356d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
